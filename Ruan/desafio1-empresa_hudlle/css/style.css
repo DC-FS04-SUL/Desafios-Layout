@@ -23,7 +23,7 @@
     box-sizing: border-box;
 }
 .main-container {
-    min-height: 100vh;
+    height: 100vh;
     margin: 3.7rem;
 }
 
@@ -70,10 +70,15 @@ header {
 }
 
 .container-main p {
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: var(--Very-Dark-Cyan);
-    margin-bottom: 1rem;
+    margin: 1rem 22rem;
+    font-size: 1.2rem;
+    max-width: 37rem;
+    width: 100%;
+    line-height: 2rem;
+
 }
 
 .container-main button {
@@ -90,6 +95,7 @@ header {
 }
 .container-main img {
     width: 100%;
+    max-width: 65rem;
 }
 .card-ball-container {
     display: flex;
@@ -122,26 +128,29 @@ margin-right: 14rem;
 }
 
  .ctn-section1, .ctn-section3  {
+    background: url(../images/bg-section-top-desktop-2.svg);
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     margin-top: 10rem;
-    padding: 3rem;
-    gap: 6rem;
+    /* padding: 5rem; */
+    gap: 4rem;
+    /* max-width: 30rem; */
+    width: 100%;
 }
 
 .ctn-section2 {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     margin-top: 10rem;
-    padding: 3rem;
+    /* padding: 5rem; */
     gap: 4rem;
+    /* max-width: 30rem; */
+    width: 100%;
 }
 
-.middle-container {
-    gap: 1rem;
-}
+
 
 .middle-container h2 {
     font-family: 'Poppins', sans-serif;
@@ -160,7 +169,7 @@ margin-right: 14rem;
 
 .ctn-section1 img, .ctn-section2 img, .ctn-section3 img {
     width: 100%;
-    width: 35rem;
+    /* max-width: 40rem; */
 }
 
 .ctn-section1 p, .ctn-section2 p, .ctn-section3 p {
