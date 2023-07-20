@@ -24,19 +24,18 @@
 }
 .main-container {
     min-height: 100vh;
-    margin: 1.7rem;
+    margin: 3.7rem;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 5rem;
-    
+    margin-bottom: 12rem;
 }
 
 .title-head img {
-    width: 7rem;
+    width: 12rem;
 }
 
 .btn-header button {
@@ -44,11 +43,12 @@ header {
     border: solid 1px var(--Light-Pink);
     border-radius: 1rem;
     border-color: var(--Light-Pink);
-    width: 7rem;
-    height: 2rem;
+    width: 8rem;
+    height: 2.3rem;
     color: var(--Light-Pink);
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    font-size: 1rem;
 
 }
 .container-main {
@@ -65,32 +65,161 @@ header {
     font-family:'Poppins', sans-serif;
     font-weight: 700;
     font-size: 1rem;
-    font-size: 1.6rem;
+    font-size: 3rem;
     color: var(--Very-Dark-Cyan);
 }
 
 .container-main p {
-    font-family:'Open Sans', sans-serif; 
+    font-family:'Open Sans', sans-serif;
     font-weight: 400;
     color: var(--Very-Dark-Cyan);
     margin-bottom: 1rem;
 }
 
 .container-main button {
-    background-color:var(--Pink);
+    background-color: var(--Pink);
     border-radius: 2rem;
     border: solid 1px;
-    width: 13rem;
-    height: 2.6rem;
+    width: 24rem;
+    height: 3.8rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     color: white;
     margin-bottom: 5rem;
+    font-size: 1rem;
+}
+.container-main img {
+    width: 100%;
+}
+.card-ball-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 10rem;
+
 }
 
-.container-main img {
-    width: 20rem;
+.card-ball-container h2 {
+    font-family:'Open Sans', sans-serif;
+    font-weight: 600;
+    color: var(--Very-Dark-Cyan);
+    font-size: 6rem;
 }
+
+.card-ball-container p {
+    font-family:'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+   color: #888
+}
+
+.card-ball-container .img-card1 {
+margin-right: 12rem;
+}
+
+.card-ball-container .img-card2 {
+margin-right: 14rem;
+}
+
+ .ctn-section1, .ctn-section3  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    padding: 3rem;
+    gap: 6rem;
+}
+
+.ctn-section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    padding: 3rem;
+    gap: 4rem;
+}
+
+.middle-container {
+    gap: 1rem;
+}
+
+.middle-container h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    color: var(--Very-Dark-Cyan);
+
+}
+.ctn-section1 h2, .ctn-section3 h2 {
+    text-align: start;
+}
+
+.ctn-section2 h2 {
+    text-align: start;
+}
+
+
+.ctn-section1 img, .ctn-section2 img, .ctn-section3 img {
+    width: 100%;
+    width: 35rem;
+}
+
+.ctn-section1 p, .ctn-section2 p, .ctn-section3 p {
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400;
+    color: var(--Very-Dark-Cyan);
+    margin-top: 0.7rem;
+}
+
+.thid-container {
+    text-align: center;
+    text-align: center;
+    margin-top: 11rem;
+    margin-bottom: 11rem;
+}
+
+
+.thid-container h2 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--Very-Dark-Cyan);
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.thid-container button {
+    background-color: var(--Pink);
+    border-radius: 2rem;
+    border: solid 1px;
+    width: 24rem;
+    height: 3.8rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 5rem;
+    font-size: 1rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    gap: 9rem;
+    padding: 4rem;
+}
+ footer p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-right: 7rem;
+    margin-top: 1rem;
+ }
+.logo-footer {
+    width: 12rem;
+}
+
+
+
+
+
+
+
 
 
 
