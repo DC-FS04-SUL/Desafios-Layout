@@ -24,14 +24,14 @@
 }
 .main-container {
     height: 100vh;
-    margin: 3.7rem;
+
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 12rem;
+    margin: 3rem 4rem 12rem;
 }
 
 .title-head img {
@@ -97,6 +97,12 @@ header {
     width: 100%;
     max-width: 65rem;
 }
+
+.middle-container{
+    margin: 6rem;
+}
+
+
 .card-ball-container {
     display: flex;
     justify-content: space-around;
@@ -127,30 +133,13 @@ margin-right: 12rem;
 margin-right: 14rem;
 }
 
- .ctn-section1, .ctn-section3  {
-    background: url(../images/bg-section-top-desktop-2.svg);
+ .ctn-section1, .ctn-section2, .ctn-section3  {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     margin-top: 10rem;
-    /* padding: 5rem; */
-    gap: 4rem;
-    /* max-width: 30rem; */
+    gap: 3rem;
     width: 100%;
 }
-
-.ctn-section2 {
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    margin-top: 10rem;
-    /* padding: 5rem; */
-    gap: 4rem;
-    /* max-width: 30rem; */
-    width: 100%;
-}
-
-
 
 .middle-container h2 {
     font-family: 'Poppins', sans-serif;
@@ -158,18 +147,17 @@ margin-right: 14rem;
     color: var(--Very-Dark-Cyan);
 
 }
-.ctn-section1 h2, .ctn-section3 h2 {
+.ctn-section1 h2, .ctn-section2 h2, .ctn-section3 h2 {
     text-align: start;
 }
 
-.ctn-section2 h2 {
-    text-align: start;
-}
-
-
-.ctn-section1 img, .ctn-section2 img, .ctn-section3 img {
+.ctn-section1 img, .ctn-section3 img {
     width: 100%;
-    /* max-width: 40rem; */
+    
+}
+.ctn-section2 img {
+    width: 100%;
+    max-width: 52rem;
 }
 
 .ctn-section1 p, .ctn-section2 p, .ctn-section3 p {
@@ -206,22 +194,32 @@ margin-right: 14rem;
     margin-bottom: 5rem;
     font-size: 1rem;
 }
-
-footer {
-    display: flex;
-    justify-content: space-around;
-    gap: 9rem;
-    padding: 4rem;
+.bg-footer-wave {
+width: 100%;
 }
- footer p {
+
+.bg-footer{
+    background-color: var(--Very-Dark-Cyan);
+    color: white;
+}
+ .footer-container{
+
+    display: flex;
+
+ }
+ .footer-container p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    padding-right: 7rem;
-    margin-top: 1rem;
+
  }
+
+
+
+ 
 .logo-footer {
     width: 12rem;
 }
+
 
 
 
